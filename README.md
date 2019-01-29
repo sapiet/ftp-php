@@ -1,7 +1,9 @@
 # ftp-php
 
 ```
-$ftp = new FTP($host);
+<?php
+
+$ftp = new FTP\FTP($host);
 $ftp->login($login, $password);
 $ftp->save($source, $destination);
 ```
